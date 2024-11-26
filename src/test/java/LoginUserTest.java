@@ -57,7 +57,7 @@ public class LoginUserTest extends BaseURI{
     }
 
     @Test
-    @DisplayName("Ошибка при авторизации с неверным email")
+    @DisplayName("Ошибка при авторизации с неверным password")
     public void testAuthorizationWithInvalidPassword() {
 
         user.createUser(email, password, name);
@@ -89,7 +89,7 @@ public class LoginUserTest extends BaseURI{
     }
 
     @Test
-    @DisplayName("Ошибка при авторизации с неверным password")
+    @DisplayName("Ошибка при авторизации без password")
     public void testAuthorizationWithoutPassword() {
 
         user.createUser(email, password, name);
