@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.hamcrest.Matchers.*;
 
-public class GetOrderTest extends BaseURI{
+public class GetUserOrderTest extends BaseURI{
 
     String bearerToken;
     String email = "lala123lal54@yandex.ru";
